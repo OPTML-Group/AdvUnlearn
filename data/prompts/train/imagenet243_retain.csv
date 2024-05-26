@@ -1,0 +1,244 @@
+case_num,source,prompt
+1,imagenet,a photo of strawberry
+2,imagenet,a photo of pedestal
+3,imagenet,a photo of scoreboard
+4,imagenet,a photo of jaguar
+5,imagenet,a photo of stove
+6,imagenet,a photo of hummingbird
+7,imagenet,a photo of tobacco shop
+8,imagenet,a photo of Greater Swiss Mountain dog
+9,imagenet,a photo of wine bottle
+10,imagenet,a photo of yellow lady-slipper
+11,imagenet,a photo of ballpoint
+12,imagenet,a photo of Irish water spaniel
+13,imagenet,a photo of barn
+14,imagenet,a photo of home theater
+15,imagenet,a photo of walking stick
+16,imagenet,a photo of notebook
+17,imagenet,a photo of syringe
+18,imagenet,a photo of mask
+19,imagenet,a photo of nipple
+20,imagenet,a photo of volleyball
+21,imagenet,a photo of vulture
+22,imagenet,a photo of cloak
+23,imagenet,a photo of whiskey jug
+24,imagenet,a photo of church
+25,imagenet,a photo of bolo tie
+26,imagenet,a photo of toy terrier
+27,imagenet,a photo of lionfish
+28,imagenet,a photo of Bouvier des Flandres
+29,imagenet,a photo of photocopier
+30,imagenet,a photo of teddy
+31,imagenet,a photo of lighter
+32,imagenet,a photo of horizontal bar
+33,imagenet,a photo of magpie
+34,imagenet,a photo of tiger shark
+35,imagenet,a photo of wall clock
+36,imagenet,a photo of leaf beetle
+37,imagenet,a photo of stole
+38,imagenet,a photo of basenji
+39,imagenet,a photo of tricycle
+40,imagenet,a photo of sports car
+41,imagenet,a photo of green mamba
+42,imagenet,a photo of shopping cart
+43,imagenet,a photo of dining table
+44,imagenet,a photo of custard apple
+45,imagenet,a photo of jackfruit
+46,imagenet,a photo of cellular telephone
+47,imagenet,a photo of sleeping bag
+48,imagenet,a photo of reflex camera
+49,imagenet,a photo of beacon
+50,imagenet,a photo of safe
+51,imagenet,a photo of dowitcher
+52,imagenet,a photo of abacus
+53,imagenet,a photo of koala
+54,imagenet,a photo of coil
+55,imagenet,a photo of lacewing
+56,imagenet,a photo of lumbermill
+57,imagenet,a photo of white stork
+58,imagenet,a photo of parallel bars
+59,imagenet,a photo of sliding door
+60,imagenet,a photo of lawn mower
+61,imagenet,a photo of wolf spider
+62,imagenet,a photo of cardigan
+63,imagenet,a photo of American coot
+64,imagenet,a photo of Border terrier
+65,imagenet,a photo of purse
+66,imagenet,a photo of hotdog
+67,imagenet,a photo of megalith
+68,imagenet,a photo of Polaroid camera
+69,imagenet,a photo of green snake
+70,imagenet,a photo of guillotine
+71,imagenet,a photo of cricket
+72,imagenet,a photo of academic gown
+73,imagenet,a photo of can opener
+74,imagenet,a photo of colobus
+75,imagenet,a photo of tree frog
+76,imagenet,a photo of bathtub
+77,imagenet,a photo of Norwich terrier
+78,imagenet,a photo of Arabian camel
+79,imagenet,a photo of Labrador retriever
+80,imagenet,a photo of hognose snake
+81,imagenet,a photo of overskirt
+82,imagenet,a photo of garter snake
+83,imagenet,a photo of giant panda
+84,imagenet,a photo of Lhasa
+85,imagenet,a photo of folding chair
+86,imagenet,a photo of lycaenid
+87,imagenet,a photo of plate
+88,imagenet,a photo of crayfish
+89,imagenet,a photo of balance beam
+90,imagenet,a photo of junco
+91,imagenet,a photo of Christmas stocking
+92,imagenet,a photo of quill
+93,imagenet,a photo of conch
+94,imagenet,a photo of shield
+95,imagenet,a photo of trailer truck
+96,imagenet,a photo of wooden spoon
+97,imagenet,a photo of mountain tent
+98,imagenet,a photo of guinea pig
+99,imagenet,a photo of tow truck
+100,imagenet,a photo of bloodhound
+101,imagenet,a photo of rifle
+102,imagenet,a photo of grand piano
+103,imagenet,a photo of schooner
+104,imagenet,a photo of prison
+105,imagenet,a photo of Great Pyrenees
+106,imagenet,a photo of brain coral
+107,imagenet,a photo of snail
+108,imagenet,a photo of meat loaf
+109,imagenet,a photo of Bedlington terrier
+110,imagenet,a photo of steam locomotive
+111,imagenet,a photo of crutch
+112,imagenet,a photo of Sussex spaniel
+113,imagenet,a photo of Great Dane
+114,imagenet,a photo of frying pan
+115,imagenet,a photo of Tibetan terrier
+116,imagenet,a photo of ostrich
+117,imagenet,a photo of lampshade
+118,imagenet,a photo of standard poodle
+119,imagenet,a photo of rock python
+120,imagenet,a photo of sunglass
+121,imagenet,a photo of plow
+122,imagenet,a photo of great grey owl
+123,imagenet,a photo of macaque
+124,imagenet,a photo of spoonbill
+125,imagenet,a photo of jay
+126,imagenet,a photo of bookshop
+127,imagenet,a photo of quail
+128,imagenet,a photo of hyena
+129,imagenet,a photo of bee eater
+130,imagenet,a photo of croquet ball
+131,imagenet,a photo of cabbage butterfly
+132,imagenet,a photo of electric fan
+133,imagenet,a photo of slug
+134,imagenet,a photo of rapeseed
+135,imagenet,a photo of worm fence
+136,imagenet,a photo of chambered nautilus
+137,imagenet,a photo of Windsor tie
+138,imagenet,a photo of paintbrush
+139,imagenet,a photo of marimba
+140,imagenet,a photo of common iguana
+141,imagenet,a photo of dial telephone
+142,imagenet,a photo of space shuttle
+143,imagenet,a photo of hippopotamus
+144,imagenet,a photo of cinema
+145,imagenet,a photo of cockroach
+146,imagenet,a photo of accordion
+147,imagenet,a photo of cello
+148,imagenet,a photo of water bottle
+149,imagenet,a photo of honeycomb
+150,imagenet,a photo of bagel
+151,imagenet,a photo of vase
+152,imagenet,a photo of black stork
+153,imagenet,a photo of eggnog
+154,imagenet,a photo of lorikeet
+155,imagenet,a photo of flatworm
+156,imagenet,a photo of container ship
+157,imagenet,a photo of Egyptian cat
+158,imagenet,a photo of miniature pinscher
+159,imagenet,a photo of minibus
+160,imagenet,a photo of suspension bridge
+161,imagenet,a photo of house finch
+162,imagenet,a photo of safety pin
+163,imagenet,a photo of malamute
+164,imagenet,a photo of gibbon
+165,imagenet,a photo of lesser panda
+166,imagenet,a photo of plunger
+167,imagenet,a photo of greenhouse
+168,imagenet,a photo of black grouse
+169,imagenet,a photo of disk brake
+170,imagenet,a photo of jeep
+171,imagenet,a photo of digital clock
+172,imagenet,a photo of cassette
+173,imagenet,a photo of streetcar
+174,imagenet,a photo of coral reef
+175,imagenet,a photo of rock crab
+176,imagenet,a photo of weasel
+177,imagenet,a photo of steel drum
+178,imagenet,a photo of letter opener
+179,imagenet,a photo of football helmet
+180,imagenet,a photo of trolleybus
+181,imagenet,a photo of mortarboard
+182,imagenet,a photo of knot
+183,imagenet,a photo of leatherback turtle
+184,imagenet,a photo of backpack
+185,imagenet,a photo of potter wheel
+186,imagenet,a photo of chainlink fence
+187,imagenet,a photo of poncho
+188,imagenet,a photo of pajama
+189,imagenet,a photo of miniature schnauzer
+190,imagenet,a photo of solar dish
+191,imagenet,a photo of breastplate
+192,imagenet,a photo of grocery store
+193,imagenet,a photo of pot
+194,imagenet,a photo of tiger
+195,imagenet,a photo of beach wagon
+196,imagenet,a photo of rule
+197,imagenet,a photo of miniature poodle
+198,imagenet,a photo of American chameleon
+199,imagenet,a photo of black swan
+200,imagenet,a photo of armadillo
+201,imagenet,a photo of tennis ball
+202,imagenet,a photo of mitten
+203,imagenet,a photo of agama
+204,imagenet,a photo of polecat
+205,imagenet,a photo of space heater
+206,imagenet,a photo of dhole
+207,imagenet,a photo of monitor
+208,imagenet,a photo of sturgeon
+209,imagenet,a photo of radio telescope
+210,imagenet,a photo of pillow
+211,imagenet,a photo of cannon
+212,imagenet,a photo of jean
+213,imagenet,a photo of padlock
+214,imagenet,a photo of tape player
+215,imagenet,a photo of white wolf
+216,imagenet,a photo of tub
+217,imagenet,a photo of cheetah
+218,imagenet,a photo of terrapin
+219,imagenet,a photo of Lakeland terrier
+220,imagenet,a photo of washer
+221,imagenet,a photo of brown bear
+222,imagenet,a photo of pomegranate
+223,imagenet,a photo of whiptail
+224,imagenet,a photo of scabbard
+225,imagenet,a photo of hand-held computer
+226,imagenet,a photo of otter
+227,imagenet,a photo of bullet train
+228,imagenet,a photo of kit fox
+229,imagenet,a photo of typewriter keyboard
+230,imagenet,a photo of catamaran
+231,imagenet,a photo of ashcan
+232,imagenet,a photo of scale
+233,imagenet,a photo of pineapple
+234,imagenet,a photo of dishrag
+235,imagenet,a photo of fountain pen
+236,imagenet,a photo of comic book
+237,imagenet,a photo of piggy bank
+238,imagenet,a photo of water jug
+239,imagenet,a photo of electric locomotive
+240,imagenet,a photo of gorilla
+241,imagenet,a photo of racket
+242,imagenet,a photo of binoculars
+243,imagenet,a photo of holster

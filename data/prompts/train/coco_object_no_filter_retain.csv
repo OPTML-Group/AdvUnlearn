@@ -1,0 +1,244 @@
+case_num,source,prompt
+1,coco_object,a photo of chair
+2,coco_object,a photo of fridge
+3,coco_object,a photo of banana
+4,coco_object,a photo of street sign
+5,coco_object,a photo of headlights
+6,coco_object,a photo of shorts
+7,coco_object,a photo of handbag
+8,coco_object,a photo of skis
+9,coco_object,a photo of skateboard
+10,coco_object,a photo of chopping board
+11,coco_object,a photo of goat
+12,coco_object,a photo of playing cards
+13,coco_object,a photo of underpants
+14,coco_object,a photo of toy cars
+15,coco_object,a photo of super hero costume
+16,coco_object,a photo of pasta
+17,coco_object,a photo of moon
+18,coco_object,a photo of basketball
+19,coco_object,a photo of radio
+20,coco_object,a photo of ipad
+21,coco_object,a photo of goldfish
+22,coco_object,a photo of jetpack
+23,coco_object,a photo of pajamas
+24,coco_object,a photo of couch
+25,coco_object,a photo of microwave
+26,coco_object,a photo of bread
+27,coco_object,a photo of umbrella
+28,coco_object,a photo of window
+29,coco_object,a photo of teddy bear
+30,coco_object,a photo of pans
+31,coco_object,a photo of hot dog
+32,coco_object,a photo of snowboard
+33,coco_object,a photo of helicopter
+34,coco_object,a photo of washer
+35,coco_object,a photo of magazine
+36,coco_object,a photo of shirt
+37,coco_object,a photo of phone
+38,coco_object,a photo of towel
+39,coco_object,a photo of necklace
+40,coco_object,a photo of bracelet
+41,coco_object,a photo of platypus
+42,coco_object,a photo of feet
+43,coco_object,a photo of road
+44,coco_object,a photo of telephone
+45,coco_object,a photo of fences
+46,coco_object,a photo of aardvark
+47,coco_object,a photo of iphone
+48,coco_object,a photo of robot
+49,coco_object,a photo of car
+50,coco_object,a photo of potted plant
+51,coco_object,a photo of sink
+52,coco_object,a photo of apple
+53,coco_object,a photo of scissors
+54,coco_object,a photo of legs
+55,coco_object,a photo of desk
+56,coco_object,a photo of tie
+57,coco_object,a photo of stapler
+58,coco_object,a photo of table
+59,coco_object,a photo of armpits
+60,coco_object,a photo of tomato
+61,coco_object,a photo of lion
+62,coco_object,a photo of key
+63,coco_object,a photo of Pig
+64,coco_object,a photo of hyppo
+65,coco_object,a photo of tablet
+66,coco_object,a photo of arms
+67,coco_object,a photo of pancake
+68,coco_object,a photo of shark
+69,coco_object,a photo of fountain
+70,coco_object,a photo of movie
+71,coco_object,a photo of goal net
+72,coco_object,a photo of dinosaur
+73,coco_object,a photo of hoop
+74,coco_object,a photo of crusher
+75,coco_object,a photo of motorcycle
+76,coco_object,a photo of tv
+77,coco_object,a photo of torso
+78,coco_object,a photo of book
+79,coco_object,a photo of short sleeve shirt
+80,coco_object,a photo of fire hydrant
+81,coco_object,a photo of computer
+82,coco_object,a photo of stop sign
+83,coco_object,a photo of sports ball
+84,coco_object,a photo of basketball
+85,coco_object,a photo of hoop
+86,coco_object,a photo of pants
+87,coco_object,a photo of tree
+88,coco_object,a photo of bunny
+89,coco_object,a photo of frame
+90,coco_object,a photo of strawberries
+91,coco_object,a photo of fingers
+92,coco_object,a photo of corn
+93,coco_object,a photo of balloon
+94,coco_object,a photo of back
+95,coco_object,a photo of swan
+96,coco_object,a photo of fax machine
+97,coco_object,a photo of head
+98,coco_object,a photo of toys
+99,coco_object,a photo of unicycle
+100,coco_object,a photo of hen
+101,coco_object,a photo of animal crackers
+102,coco_object,a photo of bird
+103,coco_object,a photo of cow
+104,coco_object,a photo of toaster
+105,coco_object,a photo of boat
+106,coco_object,a photo of backpack
+107,coco_object,a photo of traffic light
+108,coco_object,a photo of hand
+109,coco_object,a photo of refrigerator
+110,coco_object,a photo of surfboard
+111,coco_object,a photo of broccoli
+112,coco_object,a photo of mouth
+113,coco_object,a photo of door handle
+114,coco_object,a photo of hair brush
+115,coco_object,a photo of cupcake
+116,coco_object,a photo of pumpkin
+117,coco_object,a photo of dollar bill
+118,coco_object,a photo of ladder
+119,coco_object,a photo of ears
+120,coco_object,a photo of whale
+121,coco_object,a photo of bat
+122,coco_object,a photo of goose
+123,coco_object,a photo of engine
+124,coco_object,a photo of nose
+125,coco_object,a photo of basketball court
+126,coco_object,a photo of cat
+127,coco_object,a photo of airplane
+128,coco_object,a photo of bus
+129,coco_object,a photo of plate
+130,coco_object,a photo of steering wheel
+131,coco_object,a photo of eyeglasses
+132,coco_object,a photo of teapot
+133,coco_object,a photo of pizza
+134,coco_object,a photo of sandwich
+135,coco_object,a photo of suitcase
+136,coco_object,a photo of vase
+137,coco_object,a photo of power
+138,coco_object,a photo of face
+139,coco_object,a photo of pillow
+140,coco_object,a photo of light switch
+141,coco_object,a photo of eye
+142,coco_object,a photo of van
+143,coco_object,a photo of doll
+144,coco_object,a photo of pineapple
+145,coco_object,a photo of milk
+146,coco_object,a photo of dryer
+147,coco_object,a photo of towel
+148,coco_object,a photo of hot air balloon
+149,coco_object,a photo of soccer ball
+150,coco_object,a photo of legos
+151,coco_object,a photo of table cloth
+152,coco_object,a photo of horn
+153,coco_object,a photo of dog
+154,coco_object,a photo of hat
+155,coco_object,a photo of train
+156,coco_object,a photo of cell phone
+157,coco_object,a photo of wine glass
+158,coco_object,a photo of cup
+159,coco_object,a photo of fork
+160,coco_object,a photo of squirrel
+161,coco_object,a photo of pen
+162,coco_object,a photo of carrot
+163,coco_object,a photo of baseball bat
+164,coco_object,a photo of tennis racket
+165,coco_object,a photo of frogs
+166,coco_object,a photo of kangaroo
+167,coco_object,a photo of soup
+168,coco_object,a photo of candle
+169,coco_object,a photo of side table
+170,coco_object,a photo of cereal
+171,coco_object,a photo of field goal posts
+172,coco_object,a photo of fly
+173,coco_object,a photo of soccer nets
+174,coco_object,a photo of firefly
+175,coco_object,a photo of horse
+176,coco_object,a photo of license plate
+177,coco_object,a photo of mirror
+178,coco_object,a photo of mouse
+179,coco_object,a photo of chicken
+180,coco_object,a photo of blender
+181,coco_object,a photo of knife
+182,coco_object,a photo of duck
+183,coco_object,a photo of kite
+184,coco_object,a photo of chandelier
+185,coco_object,a photo of baseball glove
+186,coco_object,a photo of tiger
+187,coco_object,a photo of cake
+188,coco_object,a photo of rhinoceros
+189,coco_object,a photo of meat
+190,coco_object,a photo of desktop
+191,coco_object,a photo of wheelchair
+192,coco_object,a photo of lizard
+193,coco_object,a photo of gate
+194,coco_object,a photo of seahorse
+195,coco_object,a photo of raft
+196,coco_object,a photo of roof
+197,coco_object,a photo of turkey
+198,coco_object,a photo of sheep
+199,coco_object,a photo of bed
+200,coco_object,a photo of dining table
+201,coco_object,a photo of remote
+202,coco_object,a photo of zebra
+203,coco_object,a photo of hair drier
+204,coco_object,a photo of spoon
+205,coco_object,a photo of frisbee
+206,coco_object,a photo of orange
+207,coco_object,a photo of parking meter
+208,coco_object,a photo of giraffe
+209,coco_object,a photo of table
+210,coco_object,a photo of house
+211,coco_object,a photo of owl
+212,coco_object,a photo of sailboat
+213,coco_object,a photo of window
+214,coco_object,a photo of carpet
+215,coco_object,a photo of building
+216,coco_object,a photo of beans
+217,coco_object,a photo of rocket
+218,coco_object,a photo of rooster
+219,coco_object,a photo of tennis net
+220,coco_object,a photo of baseball
+221,coco_object,a photo of nectar
+222,coco_object,a photo of bottle
+223,coco_object,a photo of laptop
+224,coco_object,a photo of elephant
+225,coco_object,a photo of clock
+226,coco_object,a photo of wheel
+227,coco_object,a photo of bear
+228,coco_object,a photo of guitar
+229,coco_object,a photo of toothbrush
+230,coco_object,a photo of fish
+231,coco_object,a photo of jacket
+232,coco_object,a photo of coffee table
+233,coco_object,a photo of bench
+234,coco_object,a photo of cheese
+235,coco_object,a photo of scarf
+236,coco_object,a photo of deer
+237,coco_object,a photo of muffins
+238,coco_object,a photo of cookie
+239,coco_object,a photo of bacon
+240,coco_object,a photo of cabinets
+241,coco_object,a photo of copier
+242,coco_object,a photo of seats
+243,coco_object,a photo of mat
