@@ -15,7 +15,7 @@ from transformers import CLIPTextModel
 cache_path = ".cache"
 ```
 
-#### Base model of our finetuned text encoder
+#### Base model of our unlearned text encoders
 ```
 model_name_or_path = "CompVis/stable-diffusion-v1-4"
 
