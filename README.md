@@ -44,7 +44,7 @@ text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="tenc
 ## Prepare
 
 ### Environment Setup
-A suitable conda environment named ```ldm``` can be created and activated with:
+A suitable conda environment named ```AdvUnlearn``` can be created and activated with:
 
 ```
 conda env create -f environment.yaml
