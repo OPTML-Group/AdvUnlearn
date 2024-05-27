@@ -8,6 +8,38 @@ This is the code implementation of our Robust DM Unlearning Framework: ```AdvUnl
       <img src = 'assets/nudity_main.png'>
 </div>
 
+## Directly Usage ([HuggingFace Model](https://huggingface.co/OPTML-Group/AdvUnlearn))
+
+```
+from transformers import CLIPTextModel
+cache_path = ".cache"
+```
+
+#### Base model of our finetuned text encoder
+```
+model_name_or_path = "CompVis/stable-diffusion-v1-4"
+
+text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="text_encoder", cache_dir=cache_path)
+```
+
+#### AdvUnlearn (Ours): Unlearned text encoder
+```
+model_name_or_path = "OPTML-Group/AdvUnlearn"
+
+# Nudity-Unlearned
+text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="nudity_unlearned", cache_dir=cache_path)
+
+# Style-Unlearned
+text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="vangogh_unlearned", cache_dir=cache_path)
+
+# Object-Unlearned
+text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="church_unlearned", cache_dir=cache_path)
+text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="garbage_truck_unlearned", cache_dir=cache_path)
+text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="parachute_unlearned", cache_dir=cache_path)
+text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="tench_unlearned", cache_dir=cache_path)
+```
+
+
 
 ## Prepare
 
