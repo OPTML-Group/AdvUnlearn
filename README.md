@@ -8,7 +8,7 @@ This is the code implementation of our Robust DM Unlearning Framework: ```AdvUnl
       <img src = 'assets/nudity_main.png'>
 </div>
 
-## Directly Usage ([HuggingFace Model](https://huggingface.co/OPTML-Group/AdvUnlearn))
+## Simple Usage of AdvUnlearn Text Encoders ([HuggingFace Model](https://huggingface.co/OPTML-Group/AdvUnlearn))
 
 ```
 from transformers import CLIPTextModel
