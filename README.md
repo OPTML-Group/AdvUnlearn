@@ -4,6 +4,10 @@ Our proposed robust unlearning framework, AdvUnlearn, enhances diffusion models'
 
 This is the code implementation of our Robust DM Unlearning Framework: ```AdvUnlearn```, and we developed our code based on the code base of [SD](https://github.com/CompVis/stable-diffusion) and [ESD](https://github.com/rohitgandikota/erasing).
 
+<div align='center'>
+      <img src = 'assets/nudity_main.png'>
+</div>
+
 
 ## Prepare
 
@@ -19,6 +23,7 @@ conda activate AdvUnlearn
 * Base model - SD v1.4: download it from [here](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4-full-ema.ckpt), and move it to ```models/sd-v1-4-full-ema.ckpt```
 * COCO-10k (for CLIP score and FID): you can extract the image subset from COCO dataset, or you can download it from [here](https://drive.google.com/file/d/1Qgm3nNhp6ykamszN_ZvofvuzjryTsPHB/view?usp=sharing). Then, move it to `data/imgs/coco_10k`
 
+<br>
 
 ## Code Implementation
 
@@ -61,6 +66,9 @@ Calculate FID & CLIP scores using [T2IBenchmark](https://github.com/boomb0om/tex
 bash jobs/tri_quality_eval.sh
 ```   
 
+<br>
+
+
 ## Checkpoints
 ALL CKPTs for different DM unleanring tasks can be found [here](https://drive.google.com/drive/folders/1Nf-EJ2W3CsZwpc5blZFi7tm7o1wEiTg4?usp=sharing).
 ### 
@@ -76,6 +84,8 @@ ALL CKPTs for different DM unleanring tasks can be found [here](https://drive.go
 | [SPM](https://github.com/Con6924/SPM) (concept-SemiPermeable Membrane)   | ✅  | ✅   | ✅ 
 | **AdvUnlearn (Ours)**  | ✅  | ✅   |  ✅ 
 
+
+<br>
 
 
 ## Cite Our Work
