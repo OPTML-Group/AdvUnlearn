@@ -1,5 +1,5 @@
 # Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models
-###  [Project Website]() | [Arxiv Preprint](https://github.com/OPTML-Group/AdvUnlearn/blob/main/AdvUnlearn.pdf) | [Fine-tuned Weights](https://drive.google.com/drive/folders/1Nf-EJ2W3CsZwpc5blZFi7tm7o1wEiTg4?usp=sharing) | [Demo]() <br>
+###  [Project Website]() | [Arxiv Preprint](https://arxiv.org/abs/2405.15234) | [Fine-tuned Weights](https://drive.google.com/drive/folders/1Nf-EJ2W3CsZwpc5blZFi7tm7o1wEiTg4?usp=sharing) | [Demo]() <br>
 Our proposed robust unlearning framework, AdvUnlearn, enhances diffusion models' safety by robustly erasing unwanted concepts through adversarial training, achieving an optimal balance between concept erasure and image generation quality. 
 
 This is the code implementation of our Robust DM Unlearning Framework: ```AdvUnlearn```, and we developed our code based on the code base of [SD](https://github.com/CompVis/stable-diffusion) and [ESD](https://github.com/rohitgandikota/erasing).
@@ -81,10 +81,13 @@ ALL CKPTs for different DM unleanring tasks can be found [here](https://drive.go
 ## Cite Our Work
 The preprint can be cited as follows:
 ```
-@article{zhang2024advunlearn,
-  title={Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models},
-  author={Zhang, Yimeng and Chen, Xin and Jia, Jinghan and Zhang, Yihua and Fan, Chongyu and Liu, Jiancheng and Mingyi, Hong and Ding, Ke and Liu, Sijia},
-  year={2024}
+@misc{zhang2024defensive,
+      title={Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models}, 
+      author={Yimeng Zhang and Xin Chen and Jinghan Jia and Yihua Zhang and Chongyu Fan and Jiancheng Liu and Mingyi Hong and Ke Ding and Sijia Liu},
+      year={2024},
+      eprint={2405.15234},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
