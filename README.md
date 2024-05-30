@@ -123,13 +123,11 @@ ALL CKPTs for different DM unleanring tasks can be found [here](https://drive.go
 ## Cite Our Work
 The preprint can be cited as follows:
 ```
-@misc{zhang2024defensive,
-      title={Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models}, 
-      author={Yimeng Zhang and Xin Chen and Jinghan Jia and Yihua Zhang and Chongyu Fan and Jiancheng Liu and Mingyi Hong and Ke Ding and Sijia Liu},
-      year={2024},
-      eprint={2405.15234},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{zhang2024defensive,
+  title={Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models},
+  author={Zhang, Yimeng and Chen, Xin and Jia, Jinghan and Zhang, Yihua and Fan, Chongyu and Liu, Jiancheng and Hong, Mingyi and Ding, Ke and Liu, Sijia},
+  journal={arXiv preprint arXiv:2405.15234},
+  year={2024}
 }
 ```
 
