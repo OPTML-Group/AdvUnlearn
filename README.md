@@ -1,5 +1,5 @@
 # Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models
-###  [Arxiv Preprint](https://arxiv.org/abs/2405.15234) | [Fine-tuned Weights](https://drive.google.com/drive/folders/1Nf-EJ2W3CsZwpc5blZFi7tm7o1wEiTg4?usp=sharing) | [HF Model](https://huggingface.co/OPTML-Group/AdvUnlearn) [Unlearned DM Benchmark](https://huggingface.co/spaces/Intel/UnlearnDiffAtk-Benchmark) | [Demo](https://huggingface.co/spaces/Intel/AdvUnlearn) <br>
+###  [Arxiv Preprint](https://arxiv.org/abs/2405.15234) | [Fine-tuned Weights](https://drive.google.com/drive/folders/1Nf-EJ2W3CsZwpc5blZFi7tm7o1wEiTg4?usp=sharing) | [HF Model](https://huggingface.co/OPTML-Group/AdvUnlearn) | [Unlearned DM Benchmark](https://huggingface.co/spaces/Intel/UnlearnDiffAtk-Benchmark) | [Demo](https://huggingface.co/spaces/Intel/AdvUnlearn) <br>
 Our proposed robust unlearning framework, AdvUnlearn, enhances diffusion models' safety by robustly erasing unwanted concepts through adversarial training, achieving an optimal balance between concept erasure and image generation quality. 
 
 This is the code implementation of our Robust DM Unlearning Framework: ```AdvUnlearn```, and we developed our code based on the code base of [SD](https://github.com/CompVis/stable-diffusion) and [ESD](https://github.com/rohitgandikota/erasing).
