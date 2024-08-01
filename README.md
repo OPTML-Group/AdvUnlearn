@@ -40,6 +40,25 @@ text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="tenc
 ```
 
 
+## Download ckpts from [Google Drive](https://drive.google.com/drive/folders/1Nf-EJ2W3CsZwpc5blZFi7tm7o1wEiTg4?usp=sharing)
+
+```
+pip install gdown
+
+# AdvUnlearn ckpts
+gdown --folder https://drive.google.com/drive/folders/1unlyyO1vKkQ_bmwNORRkOdqZbMKTCh8a
+
+# [Baseline ckpts] Nudity
+gdown https://drive.google.com/uc?id=1rqsy0IzrRiYfhd7WSZ1-TX3xRz9PzqPl
+
+# [Baseline ckpts] Style
+gdown https://drive.google.com/uc?id=1oP4Ie5ruiMpDFfn7VExAsAfOoi6MxD99
+
+# [Baseline ckpts] Objects
+gdown https://drive.google.com/uc?id=1lxv6PULX6_3M7Uc79AXqy3OMA8oKfyci
+```
+
+
 
 ## Prepare
 
