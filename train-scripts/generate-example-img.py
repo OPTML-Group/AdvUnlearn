@@ -7,6 +7,41 @@ import pandas as pd
 import argparse
 import os
 from utils.text_encoder import CustomTextEncoder
+
+def get_openai_diffuser_transformer(diffuser_ckpt):
+  open_ckpt = {}
+  for i in range(12):
+    open_ckpt[f'transformer.resblocks.{i}.ln_1.weight'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.layer_norm1.weight']
+    open_ckpt[f'transformer.resblocks.{i}.ln_1.bias'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.layer_norm1.bias']
+    
+    q_proj_weight = diffuser_ckpt[f'text_model.encoder.layers.{i}.self_attn.q_proj.weight']
+    k_proj_weight = diffuser_ckpt[f'text_model.encoder.layers.{i}.self_attn.k_proj.weight']
+    v_proj_weight = diffuser_ckpt[f'text_model.encoder.layers.{i}.self_attn.v_proj.weight']
+    proj_weight = torch.cat([q_proj_weight, k_proj_weight, v_proj_weight], dim=0)
+    q_proj_bias = diffuser_ckpt[f'text_model.encoder.layers.{i}.self_attn.q_proj.bias']
+    k_proj_bias = diffuser_ckpt[f'text_model.encoder.layers.{i}.self_attn.k_proj.bias']
+    v_proj_bias = diffuser_ckpt[f'text_model.encoder.layers.{i}.self_attn.v_proj.bias']
+    proj_bias = torch.cat([q_proj_bias, k_proj_bias, v_proj_bias], dim=0)
+    open_ckpt[f'transformer.resblocks.{i}.attn.in_proj_weight'] = proj_weight
+    open_ckpt[f'transformer.resblocks.{i}.attn.in_proj_bias'] = proj_bias
+    
+    open_ckpt[f'transformer.resblocks.{i}.attn.out_proj.weight'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.self_attn.out_proj.weight']
+    open_ckpt[f'transformer.resblocks.{i}.attn.out_proj.bias'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.self_attn.out_proj.bias']
+    
+    open_ckpt[f'transformer.resblocks.{i}.ln_2.weight'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.layer_norm2.weight']
+    open_ckpt[f'transformer.resblocks.{i}.ln_2.bias'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.layer_norm2.bias']
+    open_ckpt[f'transformer.resblocks.{i}.mlp.c_fc.weight'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.mlp.fc1.weight']
+    open_ckpt[f'transformer.resblocks.{i}.mlp.c_fc.bias'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.mlp.fc1.bias']
+    open_ckpt[f'transformer.resblocks.{i}.mlp.c_proj.weight'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.mlp.fc2.weight']
+    open_ckpt[f'transformer.resblocks.{i}.mlp.c_proj.bias'] = diffuser_ckpt[f'text_model.encoder.layers.{i}.mlp.fc2.bias']
+
+  open_ckpt['ln_final.weight'] = diffuser_ckpt['text_model.final_layer_norm.weight']
+  open_ckpt['ln_final.bias'] = diffuser_ckpt['text_model.final_layer_norm.bias']
+  
+  return open_ckpt
+
+
+
 def extract_text_encoder_ckpt(ckpt_path):
     full_ckpt = torch.load(ckpt_path)
     new_ckpt = {}
