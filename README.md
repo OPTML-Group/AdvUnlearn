@@ -45,7 +45,7 @@ text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="tenc
 ```
 
 
-## Download ckpts from [Google Drive]([https://drive.google.com/drive/folders/1Nf-EJ2W3CsZwpc5blZFi7tm7o1wEiTg4?usp=sharing](https://drive.google.com/drive/folders/1QZ-zUgFrNNXs1EycpujKVJIRYl-4MkMF?usp=sharing))
+## Download ckpts from [Google Drive]([https://drive.google.com/drive/folders/1Nf-EJ2W3CsZwpc5blZFi7tm7o1wEiTg4?usp=sharing](https://drive.google.com/drive/folders/1QZ-zUgFrNNXs1EycpujKVJIRYl-4MkMF?usp=sharing)
 
 ```
 pip install gdown
