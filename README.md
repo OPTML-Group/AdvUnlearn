@@ -51,7 +51,7 @@ text_encoder = CLIPTextModel.from_pretrained(model_name_or_path, subfolder="tenc
 pip install gdown
 
 # AdvUnlearn ckpts
-gdown --folder https://drive.google.com/drive/folders/1unlyyO1vKkQ_bmwNORRkOdqZbMKTCh8a
+gdown --folder https://drive.google.com/drive/folders/1toiNWxJEX0X8pm8b88Og5_nMAqq6NZRd
 
 # [Baseline ckpts] Nudity
 gdown https://drive.google.com/uc?id=1rqsy0IzrRiYfhd7WSZ1-TX3xRz9PzqPl
